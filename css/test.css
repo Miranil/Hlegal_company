@@ -1,1 +1,71 @@
 @import url(styles.css);
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular-webfont.eot");
+  src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  padding-top: 31px;
+  padding-bottom: 18px; }
+  header .menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 60px;
+    margin: auto;
+    background: #fff;
+    align-items: center; }
+    header .menu .logo {
+      margin-bottom: 2px; }
+    header .menu nav {
+      margin-left: -20px; }
+      header .menu nav .list {
+        display: inline-flex;
+        line-height: 123%;
+        text-align: center;
+        list-style: none; }
+        header .menu nav .list li {
+          display: inline-block;
+          line-height: 123%;
+          text-align: center;
+          margin-right: 50px; }
+          header .menu nav .list li a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 143%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #212121;
+            font-family: 'robotoregular'; }
+
+a {
+  text-decoration: none; }
+
+.Sign {
+  display: inline-flex;
+  line-height: 123%;
+  text-align: center;
+  list-style: none;
+  align-items: center; }
+  .Sign li {
+    display: inline-block;
+    line-height: 123%;
+    text-align: center;
+    margin-right: 50px; }
+    .Sign li a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #212121;
+      font-family: 'robotoregular'; }
+      .Sign li a:nth-last-of-type {
+        color: #ffffff; }
+    .Sign li:last-of-type {
+      margin-right: 0; }
