@@ -112,15 +112,208 @@
 .banner img{
     display: flex;
 }
-.owl{
+.owl.owl-carousel{
     width: 1200px;
-    max-height: 152px;
-    display: flex;
+    min-height: 152px;
     margin: auto;
 }
-.owl img{
-    padding: 105px 12px 23px 12px;
+.owl.owl-carousel img{
+    height: 24px;
+    max-width: 202px;
+    padding: 96px 12px 32px 12px;
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #f46a35;
+    position: relative;
+    right: -560px;
+}
+.owl-dots .owl-dot.active span{
+    background-color: saddlebrown;
+}
+.text_2{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.text_2 h4{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #212121;
+    font-family: 'robotoregular';
+    padding: 160px 0 8px;
+
+}
+.text_2 p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 168%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #212121;
+    font-family: 'robotoregular';
+    padding-bottom: 48px;
+}
+.banner_2{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    min-height: 729px;
+}
+.banner_2a{
+    width: 580px;
+    background: url("../img/back_1.png");
+    margin-right: 8px;
+    height: 100%;
+
+}
+.banner_2b{
+    width: 580px;
+    background: url("../img/back_2.png");
+    height: 100%;
+}
+.banner_2 h4{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    font-family: 'robotoregular';
+    padding: 48px 0 10px;
+}
+.banner_2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    font-family: 'robotoregular';
+    max-width: 476px;
+    padding: 0 0 22px 52px;
+}
+.banner_2 .banner_2b h4{
+    color: #212121;
+}
+.banner_2 .banner_2b p{
+    color: #212121;
+}
+.banner_2 a{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #fff;
+    font-family: 'robotoregular';
+    padding: 13px 41px;
+    margin-left: 210px;
+    margin-bottom: 24px;
+}
+.banner_2 .banner_2b a{
+    border: 1px solid #212121;
+    color: #212121;
+}
+.banner_2 img{
+    display: flex;
+}
+.budget{
+    width: 1200px;
+    margin: auto;
+    padding-top: 80px;
+    background: #f9f9f9;
+}
+.budget article{
+    display: block;
+    justify-content: start;
+    max-width: 920px;
+    margin-left: 48px;
+    min-height: 252px;
+}
+.budget h4{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 144%;
+    letter-spacing: 0.04em;
+    color: #212121;
+    font-family: 'robotoregular';
+    padding: 15px 0 21px;
+}
+.budget p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #212121;
+    font-family: 'robotoregular';
+    margin-bottom: 24px;
+}
+.budget a{
+    border: 1px solid #212121;
+    border-radius: 10px;
+    width: 203px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #212121;
+    font-family: 'robotoregular';
+    padding: 12px 21px;
+}
+.budget img{
+    margin: 0 0 80px 48px;
+}
+.partners{
+    width: 1200px;
+    margin: auto;
+    padding-top: 251px;
+    display: block;
+    text-align: center;
+
+}
+.partners img{
+    width: 180px;
+    height: 21px;
+    padding-bottom: 49px;
+
+}
+.partners article{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.partners article span{
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 109%;
+    color: #212121;
+    font-family: 'robotoregular';
+    max-width: 673px;
+    padding-bottom: 48px;
+}
+.partners article p{
+    background-color: #edefee;
+    color: #212121;
+    font-family: 'robotoregular';
 }
 
-
+.partners p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #212121;
+    padding-bottom: 227px;
+}
 
