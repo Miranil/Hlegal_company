@@ -41,6 +41,15 @@ header {
         line-height: 123%;
         text-align: center;
         list-style: none;
+        .drop{
+          &:after{
+            content: "";
+            background-image: url("../img/arrow.svg");
+            width: 13px;
+            height: 8px;
+            display: inline-block;
+          }
+        }
         li {
           display: inline-block;
           line-height: 123%;
