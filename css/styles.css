@@ -396,11 +396,127 @@
     background-color: #fff;
     border: 1px solid rgba(33, 33, 33, 0.2);
 }
+.banner_3{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/banner_3.png");
+    justify-content: center;
+    align-items: center;
+}
+.banner_3 .art_2 h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #212121;
+    font-family: 'robotoregular';
+    margin-bottom: 40px;
+    padding-top: 50px;
+}
+.banner_3 .art_2 p{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #212121;
+    font-family: 'robotoregular';
+}
+.banner_3 .art_2{
+    padding-right: 30px;
+    max-width: 434px;
 
+}
+.banner_3 .art_2 .button_3 a{
+    border: 1px solid #f46a35;
+    border-radius: 10px;
+    background: #f46a35;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'robotoregular';
+    padding: 7px 38px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.banner_3 .art_2 .button_3 a:last-of-type{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212121;
+    font-family: 'robotoregular';
+}
+.banner_3 img{
+    display: flex;
+    width: 552px;
+    height: 451px;
+}
+footer{
+    width: 1200px;
+    background: #171717;
+    margin: auto;
+    padding-top: 122px;
+}
+footer .list_2{
+    display: flex;
+    justify-content: space-around;
+}
+.list_2 article ul{
+    list-style: none;
+}
+.list_2 article h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    font-family: 'robotoregular';
+    padding-bottom: 7px;
+}
+.list_2 article ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #bcbdbd;
+    font-family: 'robotoregular';
+}
+.list_2 article ul:first-of-type{
+    margin-bottom: 97px;
+}
+.contact{
+    width: 602px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 131px;
+}
+.contact article .media{
+    list-style: none;
+    display: inline-flex;
 
-
-
-
-
-
-
+}
+.contact article ul li{
+    margin-right: 24px;
+}
+.contact article .payment{
+    list-style: none;
+    display: inline-flex;
+}
+.text_3{
+    display: inline-block;
+    max-width: 1099px;
+    margin: 0 0 121px 48px;
+}
+.text_3 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+    color: #bcbdbd;
+    font-family: 'robotoregular';
+    padding-bottom: 9px;
+}
