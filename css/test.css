@@ -1,4 +1,5 @@
 @import url(styles.css);
+@import url(media_contact.css);
 @font-face {
   font-family: 'robotoregular';
   src: url("../fonts/roboto-regular-webfont.eot");
@@ -267,7 +268,7 @@ a {
     font-family: 'robotoregular'; }
 
 .owl.owl-carousel {
-  width: 1200px;
+  max-width: 1200px;
   min-height: 152px;
   margin: auto; }
   .owl.owl-carousel img {
@@ -289,7 +290,7 @@ a {
   background-color: saddlebrown; }
 
 .text_2 {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   text-align: center; }
   .text_2 h4 {
@@ -312,7 +313,7 @@ a {
     padding-bottom: 48px; }
 
 .banner_2 {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   min-height: 729px; }
@@ -383,7 +384,7 @@ a {
       transform: translateY(2px); }
 
 .budget {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 80px;
   background: #f9f9f9; }
@@ -432,16 +433,16 @@ a {
     margin: 0 0 80px 48px; }
 
 .partners {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 251px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 664px; }
+  max-height: 664px; }
   .partners img {
-    width: 180px;
+    max-width: 180px;
     height: 21px;
     padding-bottom: 49px; }
   .partners p {
@@ -453,7 +454,7 @@ a {
     color: #212121;
     padding-bottom: 227px; }
   .partners article {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between; }
@@ -475,7 +476,7 @@ a {
       height: 20px; }
 
 .blog {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -494,12 +495,12 @@ a {
 .blogs {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   justify-content: space-around; }
   .blogs article {
     display: block;
-    width: 325px; }
+    max-width: 325px; }
     .blogs article img {
       margin-bottom: 26px; }
     .blogs article p {
@@ -599,7 +600,7 @@ a {
     font-family: 'robotoregular'; }
 
 footer {
-  width: 1200px;
+  max-width: 1200px;
   background: #171717;
   margin: auto;
   padding-top: 122px; }
@@ -629,7 +630,7 @@ footer {
   padding-bottom: 7px; }
 
 .contact {
-  width: 602px;
+  max-width: 602px;
   display: flex;
   justify-content: space-around;
   margin-bottom: 131px; }

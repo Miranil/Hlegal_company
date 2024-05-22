@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1200px){
+    header .menu{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header .menu nav .list{
+        margin-left: 20px;
+        min-height: 60px;
+    }
+    body header .menu nav .list li{
+        margin-right: 17px;
+        display: flex;
+        align-items: center;
+    }
+    body header .menu nav .list .drop:after{
+        margin-left: 9px;
+    }
+    .menu .Sign li{
+        margin-right: 17px;
+    }
+    .banner{
+        padding-left: 10px;
+    }
+    main .owl.owl-carousel{
+        max-width: 90%;
+    }
+    main .banner_2{
+        width: 100%;
+        display: block;
+        padding-left: 10px;
+    }
+    main .budget img{
+        width: 100%;
+        margin-left: 0;
+    }
+    main .partners{
+        display: block;
+    }
+    main .partners img{
+        display: block;
+        text-align: center;
+        margin-left: calc(100% - 60%);
+    }
+    main .partners article{
+        justify-content: space-around;
+    }
+    main .partners p{
+        padding-bottom: 100px;
+    }
+    main .blogs_2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .contact article ul li{
+        margin-right: 15px;
+    }
+    footer .text_3{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 920px){
+    main .owl-dots .owl-dot span{
+        right: -330px;
+    }
+}
+@media only screen and (max-width: 770px){
+    header .Sign{
+        display: block;
+    }
+    header .menu .logo{
+        padding-right: 25px;
+    }
+}
+@media only screen and (max-width: 460px){
+    header .menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header .menu nav{
+        display: none;
+    }
+    .menu .Sign{
+        display: inline-flex;
+        justify-content: end;
+    }
+    .banner img{
+        width: 100%;
+    }
+    main .owl.owl-carousel img{
+        padding: 50px 5px 15px 5px;
+    }
+    main .owl-dots .owl-dot span{
+        display: none;
+    }
+    main .text_2 h4{
+        font-size: 28px;
+    }
+    main .banner_2{
+        padding-left: 0;
+        width: 100%;
+    }
+    .banner_2 .banner_2a p, .banner_2 .banner_2b p{
+        padding-left: 0;
+    }
+    .banner_2 .banner_2a a, .banner_2 .banner_2b a{
+        margin-left: 130px;
+    }
+    .banner_2 .banner_2a img, .banner_2 .banner_2b img{
+        width: 100%;
+    }
+    main .budget article{
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    main .partners img{
+        margin-left: calc(100% - 75%);
+
+    }
+    main .partners article span{
+        font-size: 16px;
+        text-align: center;
+    }
+    .list_2 article{
+        max-width: 100px;
+    }
+    main .banner_3 img{
+        max-width: 90%;
+        max-height: 90%;
+    }
+}
+@media only screen and (max-width: 376px){
+    footer{
+        width: 100%;
+    }
+    footer .list_2 article{
+        max-width: 80px;
+    }
+    footer .list_2 logo{
+        margin-right: 10px;
+    }
+    .menu .Sign li{
+        display: none;
+    }
+    .menu .Sign .contact_1{
+        display: block;
+    }
+
+}
