@@ -73,6 +73,12 @@
     header .menu .logo{
         padding-right: 25px;
     }
+    .partners_0 .partners p{
+        padding-bottom: 0;
+    }
+    .partners_0 .partners{
+        margin-bottom: 100px;
+    }
 }
 @media only screen and (max-width: 460px){
     header .menu{
@@ -111,8 +117,14 @@
     .banner_2 .banner_2a img, .banner_2 .banner_2b img{
         width: 100%;
     }
+    .banner_2 .banner_2a{
+        width: 100%;
+    }
+    .banner_2 .banner_2b{
+        width: 100%;
+    }
     .budget_0 .budget article{
-        margin-left: 10px;
+        margin-left: 5px;
         margin-bottom: 20px;
     }
     .partners_0 .partners img{
