@@ -447,6 +447,10 @@ a{
     }
   }
 }
+.budget_0{
+  width: 100hw;
+  background: #f9f9f9;
+}
 .budget{
   max-width: 1200px;
   margin: auto;
@@ -506,10 +510,7 @@ a{
   max-width: 1200px;
   margin: auto;
   padding-top: 251px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   max-height: 664px;
   img{
     max-width: 180px;
@@ -620,12 +621,15 @@ a{
     border: 1px solid rgba(33, 33, 33, 0.2);
   }
 }
+.banner_3_0{
+  width: 100hw;
+  background-image: url("../img/banner_3.png");
+}
 .banner_3{
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  background-image: url("../img/banner_3.png");
   justify-content: center;
   align-items: center;
   .art_2{
@@ -648,7 +652,7 @@ a{
       line-height: 143%;
       letter-spacing: 0.02em;
       color: #212121;
-      font-family: 'robotoregular';
+      font-family: $main_font;
     }
   }
   img{
@@ -690,6 +694,10 @@ a{
   }
 }
 footer{
+  width: 100hw;
+  background: #171717;
+}
+.footer_0{
   max-width: 1200px;
   background: #171717;
   margin: auto;

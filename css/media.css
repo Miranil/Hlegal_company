@@ -7,12 +7,12 @@
         margin-left: 20px;
         min-height: 60px;
     }
-    body header .menu nav .list li{
+    header .menu_0 .menu nav .list li{
         margin-right: 17px;
         display: flex;
         align-items: center;
     }
-    body header .menu nav .list .drop:after{
+    header .menu_0 .menu nav .list .drop:after{
         margin-left: 9px;
     }
     .menu .Sign li{
@@ -21,33 +21,36 @@
     .banner{
         padding-left: 10px;
     }
-    main .owl.owl-carousel{
+    .owl0 .owl.owl-carousel{
         max-width: 90%;
     }
-    main .banner_2{
+    .owl0 .owl-dots .owl-dot span{
+        right: -330px;
+    }
+    .banner_2_0 .banner_2{
         width: 100%;
         display: block;
         padding-left: 10px;
     }
-    main .budget img{
+    .budget_0 .budget img{
         width: 100%;
         margin-left: 0;
     }
-    main .partners{
+    .partners_0 .partners{
         display: block;
     }
-    main .partners img{
+    .partners_0 .partners img{
         display: block;
         text-align: center;
         margin-left: calc(100% - 60%);
     }
-    main .partners article{
+    .partners_0 .partners article{
         justify-content: space-around;
     }
-    main .partners p{
+    .partners_0 .partners p{
         padding-bottom: 100px;
     }
-    main .blogs_2{
+    .blog_0 .blogs_2{
         display: flex;
         flex-wrap: wrap;
     }
@@ -59,7 +62,7 @@
     }
 }
 @media only screen and (max-width: 920px){
-    main .owl-dots .owl-dot span{
+    .owl0 .owl-dots .owl-dot span{
         right: -330px;
     }
 }
@@ -86,16 +89,16 @@
     .banner img{
         width: 100%;
     }
-    main .owl.owl-carousel img{
+    .owl0 .owl.owl-carousel img{
         padding: 50px 5px 15px 5px;
     }
-    main .owl-dots .owl-dot span{
+    .owl0 .owl-dots .owl-dot span{
         display: none;
     }
-    main .text_2 h4{
+    .text_0 .text_2 h4{
         font-size: 28px;
     }
-    main .banner_2{
+    .banner_2_0 .banner_2{
         padding-left: 0;
         width: 100%;
     }
@@ -108,22 +111,22 @@
     .banner_2 .banner_2a img, .banner_2 .banner_2b img{
         width: 100%;
     }
-    main .budget article{
+    .budget_0 .budget article{
         margin-left: 10px;
         margin-bottom: 20px;
     }
-    main .partners img{
+    .partners_0 .partners img{
         margin-left: calc(100% - 75%);
 
     }
-    main .partners article span{
+    .partners_0 .partners article span{
         font-size: 16px;
         text-align: center;
     }
     .list_2 article{
         max-width: 100px;
     }
-    main .banner_3 img{
+    .banner_3_0 .banner_3 img{
         max-width: 90%;
         max-height: 90%;
     }
